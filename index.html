@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Length Converter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1>Length Converter </h1>
+		<form>
+			<div class="form-group">
+				<label for="">Miles</label>
+				<input oninput="milesToOthers(this.value)" id="milesInput" type="number" placeholder="Miles">
+			</div>
+
+			<div class="form-group">
+				<label for="">Kilometer</label>
+				<input oninput="kmToOthers(this.value)" id="kmInput" type="number" placeholder="Kilometer">
+			</div>
+
+			<div class="form-group">
+				<label for="">Meter</label>
+				<input oninput="meterToOthers(this.value)" id="meterInput" type="number" placeholder="Meter">
+			</div>
+
+			<div class="form-group">
+				<label for="">Yard</label>
+				<input oninput="yardToOthers(this.value)" id="yardInput" type="number" placeholder="Yard">
+			</div>
+
+			<div class="form-group">
+				<label for="">Foot</label>
+				<input oninput="footToOthers(this.value)" id="footInput" type="number" placeholder="Foot">
+			</div>
+
+			<div class="form-group">
+				<label for="">Inch</label>
+				<input oninput="inchToOthers(this.value)" id="inchInput" type="number" placeholder="Inch">
+			</div>
+
+			<div class="form-group">
+				<label for="">Centemeter</label>
+				<input oninput="cmToOthers(this.value)" id="cmInput" type="number" placeholder="Centemeter">
+			</div>
+
+			<div class="form-group">
+				<label for="">Millimetre</label>
+				<input oninput="mmToOthers(this.value)" id="mmInput" type="number" placeholder="Millimetre">
+			</div>
+
+			<div class="form-group">
+				<label for="">Micrometre</label>
+				<input oninput="microMToOthers(this.value)" id="microMInput" type="number" placeholder="Micrometre">
+			</div>
+
+			<div class="form-group">
+				<label for="">Nanometer</label>
+				<input oninput="nmToOthers(this.value)" id="nmInput" type="number" placeholder="Nanometer">
+			</div>
+
+		</form>
+	</div>
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
